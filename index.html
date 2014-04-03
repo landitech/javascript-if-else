@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Descubrimiento de América</title>
+	<link rel='stylesheet' href='micodigo.css' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Elsie' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div>
+<h1>¿Quién Descubrió América?</h1>
+<script type="text/javascript">
+var pregunta=prompt("¿Quién descubrió América");
+
+if (pregunta==="Cristobal Colón"){
+	document.writeln("<p><center>"+"Respuesta Correcta, "+pregunta+" descubrió América"+"</center></p>");
+	document.write('<center>'+'<img src="colon.png"/>'+'</center>');
+		document.write('<p class="bio"><a href="http://es.wikipedia.org/wiki/Cristóbal_Colón">Biografía</a></p><hr>');
+}
+else if (pregunta==="Cristobal Colon"){
+	document.writeln("<p><center>"+"Respuesta Correcta, "+pregunta+" descubrió América"+"</center></p>");
+	document.write('<center>'+'<img src="colon.png"/>'+'</center>');
+		document.write('<p class="bio"><a href="http://es.wikipedia.org/wiki/Cristóbal_Colón">Biografía</a></p><hr>');
+}
+else if (pregunta==="cristobal colon"){
+	document.writeln("<p><center>"+"Respuesta Correcta, "+pregunta+" descubrió América"+"</center></p>");
+	document.write('<center>'+'<img src="colon.png"/>'+'</center>');
+		document.write('<p class="bio"><a href="http://es.wikipedia.org/wiki/Cristóbal_Colón">Biografía</a></p><hr>');
+}
+else if (pregunta==="colon"){
+	document.writeln("<p><center>"+"Respuesta Correcta, "+pregunta+" descubrió América"+"</center></p>");
+	document.write('<center>'+'<img src="colon.png"/>'+'</center>');
+	document.write('<p class="bio"><a href="http://es.wikipedia.org/wiki/Cristóbal_Colón">Biografía</a></p><hr>');
+}
+else{
+	document.writeln("<p>"+"<center>"+"Su respuesta "+pregunta+" no es correcta"+"<center>"+"</p>");
+	document.write('<center>'+'<img src="icon-error.png"/>'+'</center>');
+	document.write('<p class="boton"><input type="button" value="Vuelve a Intentarlo" onClick="location.reload();"/></p>');
+}
+	</script>
+	<p class="autor">Autor: Orlando Rivas</p>
+</div>
+</body>
+</html>
